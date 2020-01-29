@@ -1,0 +1,102 @@
+
+
+body {
+
+  background-image: url('odometer.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 100% 100%;
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+h1 {
+  
+  color: white;
+  font-family: 'Audiowide', cursive;
+  font-size: 3vw;
+  margin-top: 10vh;
+  text-align: center;
+  text-shadow: 4px 4px 1px red;
+
+}
+
+
+h2 {
+  
+  color: black;
+  font-family: 'Audiowide', cursive;
+  font-size: 2vw;
+  text-align: center;
+  text-shadow: 4px 4px 1px whitesmoke;
+
+  
+
+}
+
+
+#push {
+  border: none;
+  background: #404040;
+  color: #ffffff !important;
+  font-weight: 100;
+  height: 4vh;
+  letter-spacing: 3px;
+  padding: 1px;
+  margin: 5px;
+  text-transform: uppercase;
+  border-radius: 6px;
+  width: 4vw;
+  display: inline-block;
+  transition: all 0.3s ease 0s;
+}
+
+
+#push:hover {
+    color: red!important;
+    font-weight: 700 !important;
+    letter-spacing: 3px;
+    background: none;
+    -webkit-box-shadow: 0px 5px 40px -10px rgba(0,0,0,0.57);
+    -moz-box-shadow: 0px 5px 40px -10px rgba(0,0,0,0.57);
+    transition: all 0.3s ease 0s;
+}
+
+#odometer {
+  border: black;
+  font-family: 'Audiowide', cursive;
+  background: #404040;
+  color: #ffffff !important;
+  font-size: 2vw;
+  letter-spacing: 30px;
+  padding: 30px 0px 30px 30px;
+  margin-top: 30px;
+  border-radius: 20px;
+  width: 16vw;
+  display: inline-block;
+  
+}
+
+#background-video{
+
+  height: auto;
+  bottom: 0;
+  min-width: 100%; 
+  min-height: 100%;
+  opacity: 0.5;
+  position: fixed;
+  right: 0; 
+  width: auto; 
+  z-index: -999;
+  
+  }
+
